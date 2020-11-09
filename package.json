@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-airlook-map",
+  "version": "1.0.0",
+  "description": "eslint-config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=eslintrc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ronghaoZHI",
+  "peerDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronghaoZHI/eslint-config.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "tape": "^5.0.1"
+  },
+  "license": "MIT"
+}
